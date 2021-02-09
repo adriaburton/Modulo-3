@@ -1,259 +1,652 @@
 * {
-    margin: 0;
-    position: 0;
+	margin: 0;
+	position: 0;
 }
 
 html, body {
-    margin: none;
-    position: 0;
-    height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: none;
+	position: 0;
+	height: 100vh;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background: #fcf8e8;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 78%;
+	background: #fff3c4;
 }
 
-/*NAV*/
-
 nav {
-    width: 96%;
-    margin: auto;
-    margin-top: 2%;
-    height: 5%;
-    background: #fcf8e8;
-    z-index: 5;
-    font-size: 0.7rem;
+	margin: auto;
+	height: 10%;
+	background: #d61c0b;
+	z-index: 5;
+	font-size: 0.8em;
 }
 
 ul {
-    margin: 0;
-    list-style-type: none;
+	margin: 0;
+	list-style-type: none;
 }
 
 i {
-    color: #495464;
+	color: #495464;
 }
 
 li {
-    display: inline-block;
+	display: inline-block;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Tahoma, ;
+	font-size: 1.2em;
+}
+
+.showcase {
+	position: absolute;
+	margin-top: 22%;
+	margin-left: 3%;
+	height: 78%;
+	width: 94%;
+	background: rgb(199, 195, 195);
 }
 
 .logo {
-    float: left;
-    margin-left: 5%;
-    height: 100%;
-    width: 2.8%;
-    display: row;
-    z-index: 3;
-    display: inline;
-    z-index: 100;
+	float: left;
+	width: 50px;
+	display: row;
+	display: inline;
+	padding-left: 3%;
 }
 
 .izquierda {
-    padding-right: 10px;
-    width: 40%;
-    margin-left: 10%;
-    margin-top: 0%;
-    float: left;
-    display: inline;
-    font-size: 1.7em;
+	position: absolute;
+	padding-top: 1%;
+	padding-left: 6%;
+	width: 60%;
+	display: inline;
 }
 
 .icono {
-    margin-left: 3%;
-    margin-right: 1%;
+	font-size: 1em;
+	padding-left: 3%;
+	padding-right: 1%;
 }
 
 .derecha {
-    position: absolute;
-    height: 5%;
-    width: 50%;
-    float: right;
-    display: inline;
-    font-size: 1.7em;
+	padding-top: 1%;
+	padding-left: 75%;
+	position: absolute;
+	height: 5%;
+	width: 20%;
+	display: inline;
 }
 
 .twitter {
-    position: absolute;
-    margin-left: 42%;
+	position: absolute;
+	padding-left: 5%;
 }
 
 .facebook {
-    position: absolute;
-    margin-left: 52%;
+	position: absolute;
+	padding-left: 10%;
 }
 
 .instagram {
-    position: absolute;
-    margin-left: 62%;
+	position: absolute;
+	padding-left: 15%;
 }
 
-/*header*/
+/*Header*/
 
 header {
-    position: relative;
+	position: absolute;
+	background: url(../images/header.jpg);
+	padding-top: 9%;
+	padding-bottom: 8%;
+	margin-top: 60px;
+	margin-left: 2%;
+	width: 96%;
+	background-size: cover;
 }
 
 h1 {
-    font-size: 0.9em;
-    margin-top: 7%;
-    margin-left: 41%;
-    position: absolute;
-    color: red;
-    z-index: 100;
-    opacity: 0.2;
+	font-size: 0.8em;
+	position: absolute;
+	color: red;
+	z-index: 100;
+	opacity: 0.2;
+	margin-top: -2%;
+	padding-left: 41%;
+}
+
+h1:hover, h1:active {
+	font-size: 400%;
+}
+
+h1:hover, h1:active {
+	margin-left: -35%;
 }
 
 .image-header {
-    height: 30%;
-    margin-left: 2%;
-    width: 96%;
-    opacity: 0.6;
+	width: 96%;
+	opacity: 0.6;
 }
 
-.comilla-izquierda, .comilla-derecha {
-    color: red;
-    position: absolute;
-    font-size: 1rem;
-    margin-left: 59.3%;
-    margin-top: 6.8%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    opacity: 0.5;
+/*section*/
+
+.box, .box-2, .box-3, .box-4 {
+	position: absolute;
+	border: 1px solid red;
+	margin-left: 1%;
+	height: 45%;
+	width: 33%;
+	display: flex;
+	flex-direction: row;
+	z-index: 100;
+	background-size: cover;
+	box-sizing: border-box;
+	font-size: 0.7em;
 }
 
-.comilla-izquierda {
-    margin-left: 59.3%;
-}
-
-.comilla-derecha {
-    margin-left: 40.5%;
-}
-
-/********************************************************************************************************/
-
-/*ARTICULOS*/
-
-/*CAJA 1 */
-
-/*********************************************************************************************************/
-
-.box, .box-2 {
-    position: absolute;
-    background: #bbbfca;
-    margin-left: 3%;
-    margin-top: 1%;
-    height: 100%;
-    width: 94%;
-    display: flex;
-    flex-direction: row;
-    z-index: 100;
+.box {
+	margin-top: 1%;
 }
 
 .box-2 {
-    margin-top: 25.7%;
+	margin-top: 1%;
+	margin-left: 34.5%;
 }
 
-.box-marco-1, .box-marco-2, .box-marco-3, .box-marco-4 {
-    position: absolute;
-    background: #bbbfca;
-    height: 52%;
-    width: 35%;
-    border: 1px solid red;
-    z-index: 100;
+.box-3 {
+	margin-top: 20%;
 }
 
-p {
-    font-size: 0.8em;
-    margin-top: 64%;
-    margin-left: 2%;
-    height: 10%;
-    width: 90%;
+.box-4 {
+	margin-top: 20%;
+	margin-left: 34.5%;
 }
 
-h4 {
-    color: white;
-    margin-top: 1%;
-    margin-left: 2%;
+.imagen-1, .imagen-2, .imagen-3, .imagen-4 {
+	position: absolute;
+	height: 70%;
+	width: 100%;
+	background-size: cover;
+}
+
+.imagen-1 {
+	background: url(../images/flor.jpg);
+	background-size: cover;
+}
+
+.imagen-2 {
+	background: url(../images/fideos.jpg);
+	background-size: cover;
+}
+
+.imagen-3 {
+	background: url(../images/ciudad.jpg);
+	background-size: cover;
+}
+
+.imagen-4 {
+	background: url(../images/fuji.jpg);
+	background-size: cover;
+}
+
+.fecha {
+	padding-left: 2%;
+	margin-top: 32%;
+	color: white;
+	position: absolute;
+	font-size: 1em;
+}
+
+.barra-1 {
+	font-size: 1em;
+	margin-top: 39%;
+	padding-left: 2%;
+	position: absolute;
+	color: white;
+	background: #aa3a3a;
+	width: 98%;
+	height: 6%;
+}
+
+.caja-2 {
+	color: #5b5b5b;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 43%;
+	font-size: 1.0em;
+	position: absolute;
 }
 
 .saber-mas {
-    position: absolute;
-    margin-left: 2%;
-    margin-top: 3%;
-    height: 20%;
-    text-decoration: none;
+	margin-left: 2%;
+	margin-top: 40%;
+	color: #5b5b5b;
 }
 
-.box-marco-1 {
-    margin-left: 1%;
-    margin-top: 1%;
+.aside-1, .aside-2 {
+	margin-top: 23%;
+	margin-left: 68%;
+	position: absolute;
+	width: 28%;
+	height: 10%;
+	font-size: 0.7em;
+	font-weight: lighter;
+	line-height: 1.5em;
+	background: #734046;
+	color: #ffffff;
 }
 
-.marco-1, .marco-2, .marco-3, .marco-4 {
-    width: 100%;
-    height: 75%;
-    position: absolute;
+.aside {
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1%;
 }
-
-.barra-1, .barra-2, .barra-3, .barra-4 {
-    position: absolute;
-    margin-top: 59.5%;
-}
-
-.barra-1, .barra-2, .barra-3, .barra-4 {
-    position: absolute;
-    width: 100%;
-    height: 5%;
-    background-color: red;
-}
-
-.box-marco-2 {
-    margin-left: 36.5%;
-    margin-top: 1%;
-}
-
-/*CAJA 2 */
-
-/*****************************************************************************************************/
-
-.box-2 {
-    margin-left: 3%;
-    margin-top: 28%;
-}
-
-.box-marco-3 {
-    margin-left: 1%;
-}
-
-.box-marco-4 {
-    margin-left: 36.5%;
-}
-
-/***********************************************************************************************************/
-
-/*LATERAL*/
 
 .aside-1 {
-    position: absolute;
-    margin-left: 72%;
-    margin-top: 2%;
-    width: 24%;
-    height: 12%;
-    background: #7c3c21;
-    z-index: 600;
+	height: 8%;
 }
 
 .aside-2 {
-    position: absolute;
-    margin-left: 72%;
-    margin-top: 9%;
-    width: 24%;
-    height: 7%;
-    background: #7c3c21;
-    z-index: 600;
+	margin-top: 28%;
+	height: 7%;
+}
+
+.footer {
+	position: absolute;
+	margin-top: 59.1%;
+	margin-left: 3%;
+	width: 63.5%;
+	height: 3%;
+	font-size: 0.7em;
+	color: #ffffff;
+	background-color: #aa3a3a;
+	text-align: center;
+}
+
+.texto-footer {
+	margin-top: 0.5%;
+}
+
+.copyright {
+	position: absolute;
+	font-size: 1em;
+	margin-top: 65%;
+	margin-left: 35%;
+}
+
+@media only screen and (max-width: 800px) {
+	html {
+		height: auto;
+	}
+	.izquierda {
+		padding-top: 2%;
+		padding-left: 5%;
+	}
+	.derecha {
+		padding-top: 2%;
+		padding-left: 67%;
+	}
+	.twitter {
+		position: absolute;
+		padding-left: 7%;
+	}
+	.facebook {
+		position: absolute;
+		padding-left: 14%;
+	}
+	.instagram {
+		position: absolute;
+		padding-left: 21%;
+	}
+	h1 {
+		font-size: 0.4em;
+		position: absolute;
+		color: red;
+		z-index: 100;
+		opacity: 0.2;
+		margin-top: -2%;
+		padding-left: 39.5%;
+	}
+	h1:hover, h1:active {
+		font-size: 175%;
+	}
+	h1:hover, h1:active {
+		margin-left: -38%;
+	}
+	.showcase {
+		position: absolute;
+		margin-top: 26%;
+		height: 70%;
+	}
+	.box, .box-2, .box-3, .box-4 {
+		position: absolute;
+		border: 1px solid red;
+		height: 34%;
+		width: 50%;
+		display: flex;
+		flex-direction: row;
+		z-index: 100;
+		background-size: cover;
+		box-sizing: border-box;
+		font-size: 0.7em;
+		margin-left: 0;
+	}
+	.box {
+		margin-top: 0%;
+	}
+	.box-2 {
+		margin-top: 0;
+		margin-left: 50%;
+	}
+	.box-3 {
+		margin-top: 34%;
+	}
+	.box-4 {
+		margin-top: 34%;
+		margin-left: 50%
+	}
+	.imagen-1, .imagen-2, .imagen-3, .imagen-4 {
+		height: 60%;
+	}
+	.fecha {
+		padding-left: 2%;
+		margin-top: 35%;
+		color: white;
+		position: absolute;
+	}
+	.barra-1 {
+		height: 10%;
+	}
+	.aside-1, .aside-2 {
+		margin-left: 3%;
+		position: absolute;
+		width: 94%;
+		height: 6%;
+		font-size: 0.7em;
+		background: #734046;
+		color: #ffffff;
+	}
+	.aside {
+		padding-left: 2%;
+		padding-right: 3%;
+		padding-top: 1%;
+	}
+	.aside-1 {
+		margin-top: 90%;
+	}
+	.aside-2 {
+		margin-top: 98.5%;
+	}
+	.footer {
+		position: absolute;
+		margin-top: 110.5%;
+		margin-left: 3%;
+		width: 93.7%;
+		height: 3%;
+		font-size: 0.5em;
+		color: #ffffff;
+		background-color: #aa3a3a;
+		text-align: center;
+	}
+	.texto-footer {
+		margin-top: 1%;
+	}
+	.copyright {
+		position: absolute;
+		font-size: 0.3em;
+		margin-top: 128%;
+		margin-left: 44%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	* {
+		margin: 0;
+		position: 0;
+	}
+	html, body {
+		margin: none;
+		position: 0;
+		height: 100vh;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	body {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 80%;
+		background: #fcf8e8;
+	}
+	nav {
+		margin-top: 2%;
+		margin-left: 4%;
+		height: 5%;
+		width: 95%;
+		background: #fcf8e8;
+		z-index: 5;
+		font-size: 0.4rem;
+	}
+	ul {
+		margin: 0;
+		list-style-type: none;
+	}
+	i {
+		color: #495464;
+	}
+	li {
+		display: inline-block;
+	}
+	a {
+		color: black;
+		text-decoration: none;
+		font-family: Verdana, Geneva, Tahoma, ;
+		font-size: 1.2em;
+	}
+	.contendor {
+		width: 80%;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+	}
+	.logo {
+		float: left;
+		width: 25px;
+		display: row;
+		display: inline;
+		padding-left: 3%;
+	}
+	.izquierda {
+		position: absolute;
+		padding-top: 1.5%;
+		padding-left: 2%;
+		padding-right: 10%;
+		width: 60%;
+		display: inline;
+	}
+	.icono {
+		font-size: 1em;
+		padding-left: 3%;
+		padding-right: 1%;
+	}
+	.derecha {
+		padding-top: 1.5%;
+		padding-left: 60%;
+		position: absolute;
+		height: 5%;
+		width: 20%;
+		display: inline;
+	}
+	.twitter {
+		position: absolute;
+		padding-left: 5%;
+	}
+	.facebook {
+		position: absolute;
+		padding-left: 10%;
+	}
+	.instagram {
+		position: absolute;
+		padding-left: 15%;
+	}
+	/*Header*/
+	header {
+		position: absolute;
+		background: url(../images/header.jpg);
+		padding-top: 10%;
+		padding-bottom: 8%;
+		margin-top: 25px;
+		margin-left: 3%;
+		width: 94%;
+		background-size: cover;
+	}
+	h1 {
+		font-size: 0.2em;
+		position: absolute;
+		color: red;
+		z-index: 100;
+		opacity: 0.2;
+		margin-top: -3%;
+		padding-left: 38%;
+	}
+	.image-header {
+		width: 96%;
+		opacity: 0.6;
+	}
+	/*section*/
+	.showcase {
+		position: absolute;
+		margin-top: 26%;
+		margin-left: 3%;
+		height: 78%;
+		width: 94%;
+		background: rgb(199, 195, 195);
+	}
+	.box, .box-2, .box-3, .box-4 {
+		position: absolute;
+		border: 1px solid red;
+		margin-left: 1%;
+		height: 18.5%;
+		width: 98%;
+		display: flex;
+		flex-direction: column;
+		z-index: 100;
+		background-size: cover;
+		box-sizing: border-box;
+		font-size: 0.7em;
+	}
+	.box {
+		margin-top: 1%;
+	}
+	.box-2 {
+		margin-top: 28.5%;
+	}
+	.box-3 {
+		margin-top: 56%;
+	}
+	.box-4 {
+		margin-top: 83.5%;
+	}
+	.imagen-1, .imagen-2, .imagen-3, .imagen-4 {
+		position: absolute;
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+	}
+	.imagen-1 {
+		background: url(../images/flor.jpg);
+		background-size: cover;
+	}
+	.imagen-2 {
+		background: url(../images/fideos.jpg);
+		background-size: cover;
+	}
+	.imagen-3 {
+		background: url(../images/ciudad.jpg);
+		background-size: cover;
+	}
+	.imagen-4 {
+		background: url(../images/fuji.jpg);
+		background-size: cover;
+	}
+	.fecha {
+		padding-left: 2%;
+		margin-top: 10%;
+		color: white;
+		position: absolute;
+		font-size: 0.5em;
+	}
+	.barra-1 {
+		font-size: 0.5em;
+		margin-top: 12%;
+		padding-left: 2%;
+		position: absolute;
+		color: white;
+		background: #aa3a3a;
+		width: 98%;
+		height: 15%;
+	}
+	.caja-2 {
+		color: #5b5b5b;
+		padding-left: 2%;
+		margin-top: -28%;
+		font-size: 0.55em;
+		position: absolute;
+	}
+	.saber-mas {
+		color: #5b5b5b;
+	}
+	.aside-1, .aside-2 {
+		margin-left: 3%;
+		position: absolute;
+		width: 93.6%;
+		height: 6%;
+		font-size: 0.4em;
+		font-weight: lighter;
+		line-height: 1.5em;
+		background: #734046;
+		color: #ffffff;
+	}
+	.aside {
+		padding-left: 3%;
+		padding-right: 3%;
+		padding-top: 1%;
+	}
+	.aside-1 {
+		margin-top: 131%;
+	}
+	.aside-2 {
+		margin-top: 143%;
+	}
+	.footer {
+		position: absolute;
+		margin-top: 156.5%;
+		margin-left: 3%;
+		width: 93.7%;
+		height: 3%;
+		font-size: 0.5em;
+		color: #ffffff;
+		background-color: #aa3a3a;
+		text-align: center;
+	}
+	.texto-footer {
+		margin-top: 1%;
+	}
+	.copyright {
+		position: absolute;
+		font-size: 0.3em;
+		margin-top: 170%;
+		margin-left: 40%;
+	}
 }
